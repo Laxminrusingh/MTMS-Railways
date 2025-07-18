@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# MTMS Indian Railways
 
-## Project info
+A web-based management system for the East Coast Railway, designed to streamline the scheduling and management of appointments, meetings, and tour programmes for railway officers. The system provides a dashboard, secure authentication, and user-friendly interfaces for managing daily operations.
 
-**URL**: https://lovable.dev/projects/b8e410ac-7a07-4197-b359-9d7ec740c94d
+## Features
+- Dashboard overview for officers
+- Appointment and meeting scheduling
+- Tour programme management
+- User authentication (sign in/out)
+- Responsive UI with sidebar navigation
+- Built with React, TypeScript, Vite, shadcn-ui, and Tailwind CSS
+- Supabase integration for backend/database
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b8e410ac-7a07-4197-b359-9d7ec740c94d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+## Technologies Used
 - React
+- TypeScript
+- Vite
 - shadcn-ui
 - Tailwind CSS
+- Supabase
+- React Query
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/b8e410ac-7a07-4197-b359-9d7ec740c94d) and click on Share -> Publish.
+### Prerequisites
+- Node.js & npm installed
 
-## Can I connect a custom domain to my Lovable project?
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Chandrkant07/MTMS_railways.git
+   cd MTMS_railways
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-Yes, you can!
+## Usage
+- Sign in with your credentials.
+- Use the sidebar to navigate between Dashboard, Appointments & Meetings, and Tour Programmes.
+- Add, view, and manage appointments and tour programmes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## License
+[Specify your license here, e.g., MIT]
